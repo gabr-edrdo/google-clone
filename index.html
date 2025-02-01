@@ -6,50 +6,61 @@
     <title>Google</title>
 
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">
+        <a class="linkCinza" href="#">
           <p>Sobre</p>
         </a>
-        <a href="#">
+        <a class="linkCinza" href="#">
           <p>Loja</p>
         </a>
       </nav>
       <section>
-        <a href="#">
+        <a class="linkBranco" href="#">
           <p>Gmail</p>
         </a>
-        <a href="#">
+        <a class="linkBranco" href="#">
           <p>Imagens</p>
         </a>
-        <div>
-          <!-- Apps -->
-        </div>
-        <div>
-          <!-- Perfil -->
-        </div>
+        <a class="linkBranco" href="#">
+          <i class="fa-solid fa-table-cells"></i>
+        </a>
+        <a class="linkBranco" href="#">
+          <img src="./assets/yorkshire-face.jpg" alt="yorkshire" />
+        </a>
       </section>
     </header>
 
     <main>
       <div>
-        <h1>Google!</h1>
+        <h1 class="titulo">Google!</h1>
       </div>
-      <div>
-        <input type="text" />
+
+      <div class="pesquisa">
         <div>
-          <button>
-            <!-- icon -->
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <input type="text" />
+        <div class="iconButtonContainer">
+          <button class="iconButton">
+            <i class="fa-solid fa-microphone-lines"></i>
           </button>
-          <button>
-            <!-- icon -->
+          <button class="iconButton">
+            <i class="fa-solid fa-camera"></i>
           </button>
         </div>
       </div>
 
-      <div>
+      <div class="botoesPesquisaContainer">
         <button>
           <p>Pesquisa Google</p>
         </button>
@@ -58,7 +69,7 @@
         </button>
       </div>
 
-      <div>
+      <div class="lang">
         <p>Google disponível em: <span>English</span></p>
       </div>
     </main>
@@ -69,16 +80,16 @@
       </section>
 
       <section>
-        <div>
-          <a href="#">Publicidade</a>
-          <a href="#">Negócios</a>
-          <a href="#">Como funciona a Pesquisa</a>
+        <div class="footerLink">
+          <a>Publicidade</a>
+          <a>Negócios</a>
+          <a>Como funciona a Pesquisa</a>
         </div>
 
-        <div>
-          <a href="#">Privacidade</a>
-          <a href="#">Termos</a>
-          <a href="#">Configurações</a>
+        <div class="footerLink">
+          <a>Privacidade</a>
+          <a>Termos</a>
+          <a>Configurações</a>
         </div>
       </section>
     </footer>
