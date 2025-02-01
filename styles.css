@@ -64,6 +64,25 @@ main {
 .titulo {
   font-size: 5em;
   font-family: "Times New Roman", Times, serif;
+}
+
+.letra-azul {
+  color: #4285f4;
+}
+
+.letra-vermelha {
+  color: #ea4335;
+}
+
+.letra-amarela {
+  color: #fbbc05;
+}
+
+.letra-verde {
+  color: #34a853;
+}
+
+.letra-normal {
   color: #ffffff;
 }
 
